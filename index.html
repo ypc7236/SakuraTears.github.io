@@ -8,7 +8,7 @@
       body {
         margin: 0;
         overflow: hidden;
-        background: #000;
+        background: rgb(205, 219, 255);
       }
       canvas {
         position: absolute;
@@ -96,13 +96,13 @@
         transform: translate(-50%, -50%);
         margin-top: -20px;
         font-size: 46px;
-        color: #ea80b0;
+        color: #b300ff;
       }
     </style>
   </head>
   <body>
     <canvas id="pinkboard"></canvas>
-    <div id="name"> 王雅柔❤️</div>
+    <div id="name"> 王雅柔❤️每天开心 </div>
     <canvas id="canvas"></canvas>
 
     <script type="text/javascript">
@@ -445,7 +445,7 @@
           }
           context.closePath();
           // create the fill
-          context.fillStyle = "#ea80b0";
+          context.fillStyle = "Red";//"#ea80b0"
           context.fill();
           // create the image
           var image = new Image();
@@ -498,7 +498,6 @@
         }, 10);
       })(document.getElementById("pinkboard"));
 
-      // 参考：https://blog.csdn.net/weixin_57038822/article/details/121644240
     </script>
   </body>
 </html>
